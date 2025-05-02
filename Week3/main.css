@@ -35,16 +35,19 @@
     display: flex;
 }
 
-.section3-box{
-    
+.section2-box-a{
+    text-align: center;
     margin: auto;
+    width: 100%;
+  background-color: cyan;
+    
   
 
 }
-
 .section2-box-b{
-    
-    margin:auto 
-    
-    
+    text-align: center;
+    margin: auto;
+    width: 100%;
+   background-color: greenyellow ;
 }
+
