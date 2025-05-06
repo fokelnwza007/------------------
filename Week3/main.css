@@ -78,17 +78,17 @@
 }
 .section2-history{
     text-align: center;
-    color: blue;
+    color: rgb(63, 133, 6);
     font-size: 40px;
 }
 .section3-history{
     text-align: center;
-    color: blue;
+    color: rgb(185, 8, 230);
     font-size: 40px;
 }
 .section4-history{
     text-align: center;
-    color: blue;
+    color: rgb(199, 5, 47);
     font-size: 40px;
 }
 
@@ -97,4 +97,40 @@
     color: black;
     font-size: 40px;
     background-color: crimson;
+}
+.section5-history{
+    text-align: center;
+    color: darkkhaki;
+    font-size: 40px;
+}
+
+.section6-history{
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 40px;
+}
+.section1-port{
+    text-align: center;
+    color: rgb(137, 167, 8);
+    font-size: 40px;
+}
+.section2-port{
+    text-align: center;
+    color: rgb(218, 46, 16);
+    font-size: 40px;
+}
+.section3-port{
+    text-align: center;
+    color: slateblue;
+    font-size: 40px;
+}
+.section4-port{
+    text-align: center;
+    color: salmon;
+    font-size: 40px;
+}
+.section2-picture{
+    width: 40%;
+    margin-left: 30%;
+    
 }

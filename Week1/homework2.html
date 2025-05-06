@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+<title>homework2</title>
+<style>
+</style>
+</head>
+ <body>
+    <input type ="text" id="input-name"></input>
+    <select id="language-select" style="width: 200px">
+        <option value="-">-</option>
+        <option value="Javascript">Javascript</option> 
+        <option value="Python">Python</option> 
+        <option value="Go">Go</option> 
+    </select>
+    <h1 id="show-language">-</h1>
+    <h1 id="show-name">-</h1>
+    <script> //ต้องเขียนjavaภายใต้ <script>
+        document.getElementById("language-select").addEventListener("change", function(){
+            const value = this.value
+            document.getElementById("show-language").innerText = "ภาษาที่เลือก" +  " " + value
+         }
+        )
+        document.getElementById("input-name").addEventListener("change", function(){
+            const value = this.value
+            document.getElementById("show-name").innerText = "ยินดีต้อนรับ" +  " " + value
+         }
+        )
+        document.getElementById("input-name").addEventListener("input", function(){
+            const value = this.value
+            document.getElementById("show-name").innerText = "ยินดีต้อนรับ" +  " " + value
+         }
+        )
+        document.getElementById("language-select").addEventListener("input", function(){
+            const value = this.value
+            document.getElementById("show-language").innerText = "ภาษาที่เลือก" +  " " + value
+         }
+        )
+        document.getElementById("input-name").addEventListener("input", function(){
+            const value = this.value
+            document.getElementById("show-name").innerText = "ยินดีต้อนรับ" +  " " + value
+         }
+        )
+        document.getElementById("language-select").addEventListener("input", function(){
+            const value = this.value
+            document.getElementById("show-language").innerText = "ภาษาที่เลือก" +  " " + value
+         }
+        )
+
+        </script>
+</body>
+</html>
